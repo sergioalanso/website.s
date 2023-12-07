@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head-photo{
+    width: 100%;
+    height: auto;
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    background-color: #0a0b27;
+}
+.logo{
+    width: 119px;
+    height: auto;
+}
+.navbartext .dpdwn{
+    transform: translateY(18%);
+    background-color:#e53f27;
+    border-bottom: solid #0a0b27 5px;
+}
+#dpdwn2{
+    transform: translateY(4.5%);
+}
+.navbartext .dpdwn a{
+    color: white;
+}
+.navbartext .dpdwn a:hover{
+    color: #0a0b27;
+    background-color: #e53f27;
+}
+.list li{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.nav-lists{
+    margin-left: 200px;
+}
+.second-page-green{
+    width: 50%;
+    height: 802px;
+    background-color: rgb(150, 213, 26);
+    z-index: -1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    float: left;
+    text-align: center;
+}
+#spinningImage{
+    width: 180px;
+}
+#green-head{
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: normal;
+}
+.second-page-white{
+    width: 50%;
+    height: 802px;
+    background-color: antiquewhite;
+    z-index: -1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+.white-para{
+    padding-left: 130px;
+    padding-right: 130px;
+    gap: 20px;
+    color: #ff5a30;
+}
+.white-para h2{
+    font-size: 40px;
+}
+.white-para h4{
+    font-size: 24px;
+}
+.gf{
+    width: 50%;
+    height: 470px;
+    z-index: -1;
+    float: left;
+}
+footer{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #0a0b27;
+    line-height: 16.8px;
+    margin: 50px;
+}
+.foot-line{
+    
+}
+footer .foot-line a{
+    color: #0a0b27;
+    font-weight: bold;
+}
+footer .foot-line a:hover{
+    color: #e53f27;
+}
+
+
+
+
+
+@media screen and (max-width:850px){
+    #spinningImage{
+        width: 100px;
+    }
+    #green-head{
+        font-size: 40px;
+    }
+    .gf{
+        width: 100%;
+    }
+}
+
